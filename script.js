@@ -1,7 +1,8 @@
+//test - zmiana wartosci w pliku z branch
 //enter na inpucie
 const node = document.getElementById("wartosc");
 
-node.addEventListener("keyup", function(event) {
+node.addEventListener("keyup", function (event) {
   if (event.key === "Enter") {
     return Submit();
   }
@@ -29,7 +30,7 @@ function Submit() {
     let alertExist = document.getElementById("alert");
     if (typeof alertExist != "undefined" && alertExist != null) {
       alertExist.parentNode.removeChild(alertExist);
-    } 
+    }
     //usuwanie piValue jezeli istnieje
     let piValueExist = document.getElementById("piValue");
     if (typeof piValueExist != "undefined" && piValueExist != null) {
