@@ -1,5 +1,5 @@
 body {
-  overflow: hidden; /* Hide scrollbars */
+  overflow-x: hidden;
   color: #ffffff;
   font: 10px/1.5 "Montserrat", Arial, Helvetica;
   margin: 0;
@@ -9,13 +9,13 @@ body {
 .strings {
   padding-bottom: 2%;
 }
-.img {
+.imgmain {
   display: flex;
   justify-content: center;
 }
-img {
+.imgmain img {
   max-width: 100%;
-  width: 10%;
+  width: 8%;
   height: auto;
 }
 h1 {
@@ -83,6 +83,12 @@ input {
 @media (max-width: 768px) {
   #sidenav {
     display: none;
+  }
+  .imgmain img {
+    width: 20%;
+  }
+  footer h1 {
+    color: black;
   }
 }
 
