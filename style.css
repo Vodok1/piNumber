@@ -37,7 +37,7 @@ input {
 .error {
   color: red;
 }
-.button {
+.submitbutton {
   font: 10px/1.5 "Montserrat", Arial, Helvetica, bold;
   display: flex;
   justify-content: center;
@@ -51,10 +51,10 @@ input {
   margin: auto;
   cursor: pointer;
 }
-.button:hover {
+.submitbutton:hover {
   box-shadow: 2px 2px 5px #ffffff;
 }
-.button:active {
+.submitbutton:active {
   background-color: rgb(52, 56, 255);
   transition: 0.1s;
 }
